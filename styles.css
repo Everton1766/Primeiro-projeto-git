@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    margin: 47px 0 209px 42px;
+    
+    
+}
+
+.link-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #17233D;
+    cursor: pointer;
+    margin-left: 35px;
+    
+}
+
+button {
+    width: 124px;
+    height: 51px;
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    margin-left: 32px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+    
+}
+
+.logo-imagem {
+    width: 595.18px;
+    height: 500px;
+    margin-left: 121px;
+    top: 246px;
+}
+
+.div-menor {
+    display: inline-block;   
+     margin-left: 96px;
+}
+
+h1 {
+    width: 582px;
+    height: 164px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+    margin-bottom: 47px;
+}
+ p {
+    width: 493px;
+    height: 99px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: #4B505A;
+    margin-bottom: 55px;
+ }
+
+ .link-button {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #6FBF44;
+    cursor: pointer;
+    
+ }
+
+ @media screen and (max-width:900px) {
+    .caixa-maior {
+        width: 390px;
+        height: 800px;
+        margin: 0;
+        padding: 0;
+
+    }
+    .link-header {
+        display: none;
+    }
+
+    .button {
+        width: 91px;
+        height: 31px;
+        margin-top: 17px;
+        margin-left: 284px;
+        border-radius: 6px;
+        
+    }
+    
+    .logo-imagem {
+        width: 279.92px;
+        height: 268.93px;
+        position: absolute;
+        margin: 490px 39px 23px 71px;
+        display: block;
+        top: 158px;
+    }
+    
+    h1 {
+        width: 278px;
+        height: 60px;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        color: #161A49;
+        margin-top: -75px;
+    }
+
+    p {
+        width: 304px;
+        height: 165px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;        
+        text-align: center;
+        color: #4B505A;
+    }
+
+    .link-button {
+        width: 112px;
+        height: 27px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        color: #6FBF44;
+        
+        
+    }
+    .div-menor {
+        text-align: center;
+        display: block;
+    }
+    
+ }
